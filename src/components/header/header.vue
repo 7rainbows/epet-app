@@ -106,6 +106,14 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  .headerbox
+    position relative
+
+  .main
+    /*position absolute*/
+    z-index 500
+    width 100%
+    background #fff
   .find_nav
     width: 100%
     height: 35px

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <router-link to="/first_page"></router-link>
     <router-view></router-view>
     <footer class="footerNav">
@@ -31,6 +31,9 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  .app
+    height 100%
+    overflow hidden
   .footerNav
     border-top 1px solid #e7e7e7
     height 45px
