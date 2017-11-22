@@ -9,6 +9,7 @@ import classify from '../pages/classify/classify.vue'
 import shopcart from '../pages/shopcart/shopcart.vue'
 import usercenter from '../pages/usercenter/usercenter.vue'
 import sale from '../pages/sale/sale.vue'
+import findpassword from '../pages/findpassword/findpassword.vue'
 
 Vue.use(VueRouter)
 
@@ -37,6 +38,10 @@ export default new VueRouter({
     {
       path: '/sale',
       component: sale
+    },
+    {
+      path: '/find_password',
+      component: findpassword
     }
   ]
 })
