@@ -121,8 +121,8 @@
         this.city_key = JSON.parse(localStorage.getItem('city_key') ||'{}')
         this.$store.state.city = this.city_key  //更改vuex中city的数据
         //一进入首页就会读取btn_key的值，从而判断是三个站中的哪一个
-        console.log(city.province);
-        this.btn = JSON.parse(localStorage.getItem('btn_key')||'{}')
+        //console.log(city.province);
+        this.btn = JSON.parse(localStorage.getItem('btn_key'))
         //console.log(this.btn);//null, 当localStorage中没保存值时
 
     },
