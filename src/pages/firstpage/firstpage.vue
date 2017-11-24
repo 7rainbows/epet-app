@@ -1,7 +1,7 @@
 <template>
   <div>
-    <pet-header></pet-header>
-
+    <pet-header :petName="petName"></pet-header>
+    <div>{{petNames.name}}</div>
     <div ref="firstpage" class="firstpage">
       <div>
         <!--轮播-->
@@ -181,6 +181,7 @@
 
 <script>
   import BScroll from 'better-scroll'
+  import {mapState} from 'vuex'
   import pagline from '../../components/pageline/pageline.vue'
   import header from '../../components/header/header.vue'
   import sale from '../../pages/sale/sale.vue'
@@ -189,12 +190,89 @@
   import comment from '../../components/comment/comment.vue'
   import copyright from '../../components/copyright/copyright.vue'
   export default{
+    data () {
+      return {
+        petName :{}
+      }
+    },
     mounted() {
-      this.$nextTick(() => {
+     /* this.$nextTick(() => {
         const firpageScroll = new BScroll(this.$refs.firstpage, {
           click: true
         })
+      })*/
+
+      this.$nextTick(() => {
+        if(!this.firpageScroll){
+          this.firpageScroll = new BScroll(this.$refs.firstpage, {
+            click: true
+          })
+        } else {
+          this.firpageScroll.refresh()
+        }
       })
+//      console.log(this.$route.query.pet_type);
+      this.getData()
+    },
+    methods: {
+      getData () {
+        let {pet_type, btn} = this.$route.query
+
+        if (!pet_type) {  //1.刚一进入网站还没有请求参数，则默认请求猫站
+          //console.log(localStorage.getItem('type_key'));
+          pet_type = localStorage.getItem('type_key')||[]
+          //console.log(pet_type.length);
+
+          if(pet_type.length===0) {
+            this.$store.dispatch('getCat')
+          }else {
+            console.log(111);
+          }
+        }
+        switch (pet_type) {
+          case 'cat':
+            this.$store.dispatch('getCat')
+            break
+          case 'dog':
+            this.$store.dispatch('getDog')
+            break
+          case 'water':
+            this.$store.dispatch('getWater')
+            break
+        }
+
+      }
+    },
+    computed: {
+      ...mapState(['cat', 'dog', 'water']),
+      petNames () {
+        let {petName} = this
+        let {pet_type} = this.$route.query
+
+        if (!pet_type) { //1.执行顺序 222 111 222 一打开网站时进入该语句，此时petName为undefined,
+          pet_type = localStorage.getItem('type_key') || []   //在进入mounted中执行111语句发送请求，当this.cat数据发生变化时再回到该语句改变petName数据
+          if (pet_type.length===0) {
+            petName = this.cat
+            console.log(petName.name);
+            console.log(222);
+            return petName
+          }
+        }
+
+        if (pet_type==='cat') {
+          petName = this.cat
+          return petName
+        }
+        if (pet_type==='dog') {
+          petName = this.dog
+          return petName
+        }
+        if (pet_type==='water') {
+          petName = this.water
+          return petName
+        }
+
+      }
     },
     components: {
       'pet-header': header,
@@ -246,7 +324,7 @@
   .surprise
     width 100%
     overflow hidden
-
+    transform translateZ(0.1px)
   .surprise-tit
     left 10px
     margin-top 10px

@@ -3,23 +3,26 @@
     <div class="loginHeader">
       <div class="loginBg">
         <div class="loginHeaderTop">
-          <a href="javascript:;" class="icon-arrow_lift"></a>
-          <a href="javascript:;" class="loginText">注册</a>
+          <!--<a href="javascript:;" class="icon-arrow_lift"></a>-->
+          <router-link to="/" class="icon-arrow_lift"></router-link>
+          <router-link to="/register" class="loginText">注册</router-link>
+          <router-view></router-view>
+          <!--<a href="javascript:;" class="loginText">注册</a>-->
         </div>
         <div class="petLogo"></div>
         <div class="loginTab">
           <ul class="twoTab">
-            <li class="tabLi">普通登录
-              <div class="triangle" v-show="false"></div>
+            <li class="tabLi"  @click="loginOrRegister(true)">普通登录
+              <div class="triangle" v-show="isShow"></div>
             </li>
-            <li class="tabLi">手机动态密码登录
-              <div class="triangle" v-show="true"></div>
+            <li class="tabLi"  @click="loginOrRegister(false)">手机动态密码登录
+              <div class="triangle" v-show="!isShow"></div>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="loginWrap" v-show="false">
+    <div class="loginWrap" v-show="isShow">
       <ul class="loginContent">
         <li class="loginLi">
           <span class="icon-user"></span>
@@ -36,7 +39,7 @@
       </div>
       <a href="javascript:;" class="loginPet" style="top: 135px;">登录</a>
     </div>
-    <div class="registerWrap" v-show="true">
+    <div class="registerWrap" v-show="!isShow">
       <ul class="registerContent">
         <li class="registerLi">
           <span class="icon-mobile"></span>
@@ -64,13 +67,38 @@
       </div>
       <a href="javascript:;" class="loginPet">登录</a>
     </div>
+    <div style="margin-top: 5em ;height: 10em"></div>
+    <div class="otherLogin">
+      <div class="ftc ft16 mt c666 partners"><b>合作网站登录</b></div>
+      <ul class="qqAndZhi">
+        <li class="qqLi">
+          <a href="https://passport.epet.com/Oauth.html?type=4&returnurl=https://wap.epet.com/user/UserCenter.html">
+            <img src="./login_ico4.png">
+          </a>
+        </li>
+        <li class="qqLi">
+          <a href="https://passport.epet.com/Oauth.html?type=2&returnurl=https://wap.epet.com/user/UserCenter.html">
+            <img src="./login_ico2.png">
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
 <script>
 //  import { MessageBox } from 'mint-ui';
   export default{
-
+    data() {
+      return {
+        isShow: true
+      }
+    },
+    methods: {
+      loginOrRegister(isShow) {
+        this.isShow = isShow
+      }
+    }
   }
 </script>
 
@@ -136,17 +164,20 @@
   .loginWrap, .registerWrap
     position relative
     width 100%
-    height 410px
-    .loginContent, .registerContent
+    /*height 410px*/
+    .loginContent
       height 104px
       padding 0 20px 12px
-      .loginLi, .registerLi
-        position relative
-        height 50%
-        width 100%
-        line-height 55px
-        border-bottom 1px solid lightgray
-
+    .loginLi, .registerLi
+      position relative
+      height 50%
+      width 100%
+      line-height 55px
+      border-bottom 1px solid lightgray
+    .registerContent
+      padding 0 20px 12px
+      .registerLi
+        height 46px !important
   .icon-user, .icon-lock, .icon-mobile
     color lightgray
     font-size 20px
@@ -192,6 +223,23 @@
     font-size 16px
     background #2ec975
     letter-spacing 10px
+
+  .qqAndZhi
+    height 44px
+    width 100%
+    display flex
+    .qqLi
+      width 90px
+      height 44px
+      padding 0 20px
+      &>a
+        display inline-block
+        height 100%
+        width 100%
+        &>img
+          display inline-block
+          width 100%
+          height 100%
 
 
 </style>

@@ -4,11 +4,15 @@ import App from './App'
 import router from './router'
 import store from './store'
 import {Button, Swipe, SwipeItem} from 'mint-ui'
+import VDistpicker from 'v-distpicker'
 
+import './mock/mockServer'
 
 Vue.component(Button.name,Button)
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
+
+Vue.component('v-distpicker', VDistpicker)
 
 
 import '../static/reset.css'

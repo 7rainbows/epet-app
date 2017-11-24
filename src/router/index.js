@@ -10,6 +10,8 @@ import shopcart from '../pages/shopcart/shopcart.vue'
 import usercenter from '../pages/usercenter/usercenter.vue'
 import sale from '../pages/sale/sale.vue'
 import findpassword from '../pages/findpassword/findpassword.vue'
+import register from '../pages/register/register.vue'
+import place from '../pages/place/place.vue'
 
 Vue.use(VueRouter)
 
@@ -21,7 +23,13 @@ export default new VueRouter({
     },
     {
       path: '/first_page',
-      component: firstpage
+      component: firstpage,
+      /*children: [
+        {
+          path: 'place',
+          component: place
+        }
+      ]*/
     },
     {
       path: '/shop_cart',
@@ -42,6 +50,14 @@ export default new VueRouter({
     {
       path: '/find_password',
       component: findpassword
+    },
+    {
+      path: '/register',
+      component: register
+    },
+    {
+      path: '/place',
+      component: place
     }
   ]
 })

@@ -5,12 +5,19 @@
       <div class="clearfix pt5 pl10 pr10 pb5">
         <div class="epet-search bgf">
           <div class="fl rela ft14 location">
-            <a href="">
-              <span class="catordog c89">狗狗站</span>
+            <keep-alive>
+            <router-link to="/place">
+              <span class="catordog c89" v-if="btn===1||btn===null">猫猫站</span>
+              <span class="catordog c89" v-if="btn===2">狗狗站</span>
+              <span class="catordog c89" v-if="btn===3">水族馆</span>
+              <!--<span class="catordog c89" v-else="">猫猫站</span>-->
               <span class="c89">|</span>
-              <span data-name="my-place" class="myposition c89 ft13">北京</span>
+              <span v-if="city.province"><span data-name="my-place" class="myposition c89 ft13">{{city.province.value}}</span></span>
+              <span v-else=""><span data-name="my-place" class="myposition c89 ft13">北京市</span></span>
               <i></i>
-            </a>
+            </router-link>
+            </keep-alive>
+            <router-view></router-view>
           </div>
           <p class="search-text">
             <a href="">
@@ -93,7 +100,14 @@
 
 <script>
   import BScroll from 'better-scroll'
+  import {mapState} from 'vuex'
   export default {
+    data() {
+      return {
+        btn: 1,
+        city_key:''
+      }
+    },
     mounted() {
       this.$nextTick(() =>{
         const navScroll = new BScroll(this.$refs.navList, {
@@ -101,8 +115,23 @@
           scrollX:true
         })
       })
+      //
+      //console.log(this.city.province);
+
+        this.city_key = JSON.parse(localStorage.getItem('city_key') ||'{}')
+        this.$store.state.city = this.city_key  //更改vuex中city的数据
+        //一进入首页就会读取btn_key的值，从而判断是三个站中的哪一个
+        console.log(city.province);
+        this.btn = JSON.parse(localStorage.getItem('btn_key')||'{}')
+        //console.log(this.btn);//null, 当localStorage中没保存值时
+
+    },
+    computed: {
+      ...mapState(['city', 'cat', 'dog', 'water']),
     }
   }
+
+
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
