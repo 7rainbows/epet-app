@@ -3,7 +3,6 @@
  */
 export default {
   city: {},
-  cat: {},
-  dog:{},
-  water: {}
+  petName: {},
+  classify: []
 }

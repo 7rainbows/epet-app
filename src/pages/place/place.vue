@@ -1,9 +1,9 @@
 <template>
   <div class="wrap">
-    <div class="shopCart">
-      <div class="cartTop">
-        <div class="cartHeader">
-          <div class="cartHeaderWrap">
+    <div class="shopCart1">
+      <div class="cartTop1">
+        <div class="cartHeader1">
+          <div class="cartHeaderWrap1">
             <!--<router-link to="{url}"  class="icon-arrow_lift"></router-link>-->
             <span  class="icon-arrow_lift" @click="goBack"></span>
             <router-view></router-view>
@@ -115,7 +115,7 @@
       }*/
     },
     computed: {
-      ...mapState(['city', 'cat', 'dog', 'water'])
+      ...mapState(['city'/*, 'cat', 'dog', 'water'*/])
     },
     components: { VDistpicker }
     }
@@ -132,9 +132,9 @@
     bottom 0
     width 100%
     overflow hidden
-  .cartTop
+  .cartTop1
     width 100%
-    .cartHeaderWrap
+    .cartHeaderWrap1
       position relative
       width 100%
       height 50px

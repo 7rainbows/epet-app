@@ -1,53 +1,59 @@
 <template>
   <div class="registerWrap">
-    <div class="firstRegister" v-show="false">
+    <div class="firstRegister" v-show="true">
       <div class="firstHeader">
         <div class="firstHeaderWrap">
           <span class="icon-mobile"></span>
-          <input type="text" placeholder="请输入手机号码">
+          <input type="text" placeholder="请输入手机号码" v-model="firPhoVal">
         </div>
       </div>
       <div class="firstBtnWrap">
-        <div class="firstBtn"><span>下一步</span></div>
+        <div class="firstBtn" :class="{redBtn: firPhoVal}"><span>下一步</span></div>
       </div>
     </div>
-    <div class="secondRegister">
+    <div class="secondRegister" v-show="false">
       <ul class="secondList">
         <li class="secondLi">
           <span class="icon-mobile"></span>
           <input type="text" placeholder="请输入手机号码">
         </li>
         <li class="secondLi">
-          <span class="icon-mobile"></span>
-          <input type="text" placeholder="请输入手机号码">
+          <span class="icon-image"></span>
+          <input type="text" placeholder="图片验证码">
         </li>
         <li class="secondLi">
-          <span class="icon-mobile"></span>
-          <input type="text" placeholder="请输入手机号码">
+          <span class="icon-mail4"></span>
+          <input type="text" placeholder="验证码">
           <a href="javascript:void(0);" onclick="EpetWeixin.register.getDynamicCode2(this)" class="get_phonepass afff ft14 w9" id="scodebtn">获取短信验证码</a>
         </li>
         <li class="secondLi">
-          <span class="icon-mobile"></span>
-          <input type="text" placeholder="请输入手机号码">
+          <span class="icon-user"></span>
+          <input type="text" placeholder="你的昵称/用户名">
         </li>
         <li class="secondLi">
-        <span class="icon-mobile"></span>
-        <input type="text" placeholder="请输入手机号码">
+        <span class="icon-lock"></span>
+        <input type="text" placeholder="请设置密码">
       </li>
         <li class="secondLi">
-        <span class="icon-mobile"></span>
-        <input type="text" placeholder="请输入手机号码">
+        <span class="icon-lock"></span>
+        <input type="text" placeholder="请确认密码">
       </li>
       </ul>
       <div class="secondBtnWrap">
-        <div class="secondBtn"><span>下一步</span></div>
+        <div class="secondBtn" :class="{redBtn: firPhoVal}"><span>下一步</span></div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  export default{}
+  export default{
+    data() {
+      return {
+        firPhoVal:null
+      }
+    }
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
@@ -109,7 +115,8 @@
         text-align center
         line-height 30px
         color: #fff
-
+  .redBtn
+    background red !important
 
 
 </style>

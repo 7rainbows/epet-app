@@ -1,33 +1,15 @@
 <template>
   <div>
-    <pet-header :petName="petName"></pet-header>
-    <div>{{petNames.name}}</div>
+    <pet-header></pet-header>
+    <!--<div>{{petName.name}}</div>-->
     <div ref="firstpage" class="firstpage">
       <div>
         <!--轮播-->
         <div class="banner_item">
           <div class="swiper-container banner-scroll banner-scroll0 swiper-container-horizontal">
             <mt-swipe :auto="4000">
-              <mt-swipe-item>
-                <a href=""><img src="./imgs/pic_001.jpg" alt=""></a>
-              </mt-swipe-item>
-              <mt-swipe-item>
-                <a href=""><img src="./imgs/pic_002.jpg" alt=""></a>
-              </mt-swipe-item>
-              <mt-swipe-item>
-                <a href=""><img src="./imgs/pic_003.jpg" alt=""></a>
-              </mt-swipe-item>
-              <mt-swipe-item>
-                <a href=""><img src="./imgs/pic_004.jpg" alt=""></a>
-              </mt-swipe-item>
-              <mt-swipe-item>
-                <a href=""><img src="./imgs/pic_005.jpg" alt=""></a>
-              </mt-swipe-item>
-              <mt-swipe-item>
-                <a href=""><img src="./imgs/pic_006.jpg" alt=""></a>
-              </mt-swipe-item>
-              <mt-swipe-item>
-                <a href=""><img src="./imgs/pic_007.jpg" alt=""></a>
+              <mt-swipe-item v-for="(banner, index) in petName.banners" :key="index">
+                <a href=""><img :src="banner.url"></a>
               </mt-swipe-item>
             </mt-swipe>
           </div>
@@ -36,29 +18,8 @@
         <!--轮播下八个导航-->
         <div>
           <ul class="clearfix hottype pt10 pb10">
-            <li class="fl">
-              <a href=""><img src="./imgs/pic_001.png"></a>
-            </li>
-            <li class="fl">
-              <router-link to="/sale"><img src="./imgs/pic_002.png"></router-link>
-            </li>
-            <li class="fl">
-              <a href=""><img src="./imgs/pic_003.png"></a>
-            </li>
-            <li class="fl">
-              <a href=""><img src="./imgs/pic_004.png"></a>
-            </li>
-            <li class="fl">
-              <a href=""><img src="./imgs/pic_005.png"></a>
-            </li>
-            <li class="fl">
-              <a href=""><img src="./imgs/pic_006.png"></a>
-            </li>
-            <li class="fl">
-              <a href=""><img src="./imgs/pic_007.png"></a>
-            </li>
-            <li class="fl">
-              <a href=""><img src="./imgs/pic_008.png"></a>
+            <li class="fl" v-for="(entryNav, index) in petName.entryNavs" :key="index">
+              <router-link to="/sale"><img :src="entryNav.image"></router-link>
             </li>
             <router-view></router-view>
           </ul>
@@ -91,17 +52,17 @@
         </div>
         <pagline></pagline>
         <!--热门栏目-->
-        <div class="hotColum">
+        <div class="hotColum" v-if="petName.hotPlates">
           <div class="hotTop">
             <a href=""><img src="./imgs/pic_{01} (hot).jpg"></a>
           </div>
           <div class="hotContent">
             <div class="contentLeft">
-              <a href=""><img src="./imgs/pic_{01} (hot2) .jpg"></a>
+              <a href=""><img :src="petName.hotPlates.leftSide.image"></a>
             </div>
             <div class="contentRight">
-              <a href=""><img src="./imgs/pic_{01} (hot)  (2).jpg"></a>
-              <a href=""><img src="./imgs/pic_{01} (hot3).jpg"></a>
+              <a href=""><img :src="petName.hotPlates.right_up.image"></a>
+              <a href=""><img :src="petName.hotPlates.right_down.image"></a>
             </div>
           </div>
         </div>
@@ -112,14 +73,14 @@
             <img src="./imgs/pic_{01} (8).jpg">
             <a href=""><img src="./imgs/pic_032.png"></a>
           </div>
-          <div class="videoContent">
-            <a href="#">
-              <div class="imgWrap"><img src="./imgs/pic_{01}.jpg"></div>
+          <div class="videoContent" v-if="petName.video">
+            <a :href="petName.video.link">
+              <div class="imgWrap" v-if="petName.video"><img :src="petName.video.avatar"></div>
               <div class="ft12 c999 pad10 ftc">
-                <div class="textover c333">夜空中最亮的星</div>
+                <div class="textover c333">{{petName.video.title}}</div>
                 <div class="viewWrap">
                   <span class="view"></span>
-                  <i>7397</i><span class="ml10 mr10">|</span> &nbsp;02:20
+                  <i>{{petName.video.visit}}</i><span class="ml10 mr10">|</span> &nbsp;{{petName.video.time}}
                 </div>
               </div>
             </a>
@@ -142,33 +103,16 @@
           </div>
         </div>
         <!---->
-        <div class="cheapList">
-          <div class="cheapTitle pad10">
-            <span class="ft15">谷登新品</span>
-            <span class="c999 ml5 ft12">5折限量</span>
+        <div v-if="petName.brandSales">
+          <div class="cheapList" v-for="(brandSale, index) in petName.brandSales" :key="index">
+            <div class="cheapTitle pad10">
+              <span class="ft15">{{brandSale.title}}</span>
+              <span class="c999 ml5 ft12">{{brandSale.sub_title}}</span>
+            </div>
+            <div class="productContent2">
+              <a href="javascript:;"><img :src="brandSale.image"></a>
+            </div>
           </div>
-          <product></product>
-        </div>
-        <div class="cheapList">
-          <div class="cheapTitle pad10">
-            <span class="ft15">谷登新品</span>
-            <span class="c999 ml5 ft12">5折限量</span>
-          </div>
-          <product></product>
-        </div>
-        <div class="cheapList">
-          <div class="cheapTitle pad10">
-            <span class="ft15">谷登新品</span>
-            <span class="c999 ml5 ft12">5折限量</span>
-          </div>
-          <product></product>
-        </div>
-        <div class="cheapList">
-          <div class="cheapTitle pad10">
-            <span class="ft15">谷登新品</span>
-            <span class="c999 ml5 ft12">5折限量</span>
-          </div>
-          <product></product>
         </div>
         <!--口碑评价-->
         <comment></comment>
@@ -190,27 +134,19 @@
   import comment from '../../components/comment/comment.vue'
   import copyright from '../../components/copyright/copyright.vue'
   export default{
-    data () {
+   /* data () {
       return {
         petName :{}
       }
-    },
+    },*/
     mounted() {
      /* this.$nextTick(() => {
         const firpageScroll = new BScroll(this.$refs.firstpage, {
           click: true
         })
       })*/
+      this._initScroll()
 
-      this.$nextTick(() => {
-        if(!this.firpageScroll){
-          this.firpageScroll = new BScroll(this.$refs.firstpage, {
-            click: true
-          })
-        } else {
-          this.firpageScroll.refresh()
-        }
-      })
 //      console.log(this.$route.query.pet_type);
       this.getData()
     },
@@ -241,12 +177,28 @@
             break
         }
 
+      },
+      _initScroll() {
+        this.$nextTick(() => {
+          if(!this.firpageScroll){
+            this.firpageScroll = new BScroll(this.$refs.firstpage, {
+              click: true
+            })
+          } else {
+            this.firpageScroll.refresh()
+          }
+        })
+      }
+    },
+    watch: {
+      petName (newPetName, oldPetName) {
+        this._initScroll() //解决底部有内容却不能上滑
       }
     },
     computed: {
-      ...mapState(['cat', 'dog', 'water']),
-      petNames () {
-        let {petName} = this
+      ...mapState([/*'cat', 'dog', 'water', */'petName']),
+     /* petNames () {
+        let petName = this.petName
         let {pet_type} = this.$route.query
 
         if (!pet_type) { //1.执行顺序 222 111 222 一打开网站时进入该语句，此时petName为undefined,
@@ -272,7 +224,7 @@
           return petName
         }
 
-      }
+      }*/
     },
     components: {
       'pet-header': header,
@@ -418,6 +370,7 @@
         height 210px
         &>img
           height 100%
+          width 100%
       .c333
         color #333
       .viewWrap
@@ -433,5 +386,11 @@
     height 44px
     width 100%
     border-bottom solid #eee 1px
+  .productContent2
+    height 155px
+    width 100%
+    &>a img
+      width 100%
+      height 100%
 
 </style>

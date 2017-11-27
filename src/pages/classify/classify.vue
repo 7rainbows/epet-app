@@ -14,124 +14,46 @@
       <div class="classList" v-if="isShow" >
         <div style="width: 70px; height:100%" ref="itemWrap">
           <ul class="listWrap">
-            <li class="listLi"  v-for="(classa, index) in classes" @click="searchLi(index)"
+            <li class="listLi"  v-for="(classa, index) in classify" @click="searchLi(index)"
                 :class="{activeLi:contentLi==classa.type}">{{classa.name}}</li>
           </ul>
         </div>
-        <div class="brandWrap" ref="brand">
-          <div class="contentLi"
-               v-for="(n ,index) in classes" v-if="contentLi==n.type">
-            <div class="topWrap">
-              <div class="foodTop">
-                <div class="foodHeader">
-                  <a href="" class="title c999 db ft12 mt10 pl5">狗狗零食
-                    <img src="./more.jpg" class="fr more">
-                  </a>
-                  <ul class="detail">
-                    <li class="detailLi">
-                      <a href="">
-                        <div class="rela loadimg-nofixed">
-                          <img class="w100 image" src="./zhuliang.jpg">
-                        </div>
-                        <p class="ftc ft12 mt10 c333">进口口粮</p>
-                      </a>
-                    </li>
-                    <li class="detailLi">
-                      <a href="">
-                        <div class="rela loadimg-nofixed">
-                          <img class="w100 image" src="./zhuliang.jpg">
-                        </div>
-                        <p class="ftc ft12 mt10 c333">进口口粮</p>
-                      </a>
-                    </li>
-                    <li class="detailLi">
-                      <a href="">
-                        <div class="rela loadimg-nofixed">
-                          <img class="w100 image" src="./zhuliang.jpg">
-                        </div>
-                        <p class="ftc ft12 mt10 c333">进口口粮</p>
-                      </a>
-                    </li>
-                    <li class="detailLi">
-                      <a href="">
-                        <div class="rela loadimg-nofixed">
-                          <img class="w100 image" src="./zhuliang.jpg">
-                        </div>
-                        <p class="ftc ft12 mt10 c333">进口口粮</p>
-                      </a>
-                    </li>
-                    <li class="detailLi">
-                      <a href="">
-                        <div class="rela loadimg-nofixed">
-                          <img class="w100 image" src="./zhuliang.jpg">
-                        </div>
-                        <p class="ftc ft12 mt10 c333">进口口粮</p>
-                      </a>
-                    </li>
-                    <li class="detailLi">
-                      <a href="">
-                        <div class="rela loadimg-nofixed">
-                          <img class="w100 image" src="./zhuliang.jpg">
-                        </div>
-                        <p class="ftc ft12 mt10 c333">进口口粮</p>
-                      </a>
-                    </li>
-                  </ul>
+        <div class="brandWrap" ref="brand" v-if="classify">
+          <div class="contentLiWrap">
+            <div class="contentLi"
+                 v-for="(classa ,index) in classify" v-if="contentLi==classa.type">
+              <div class="topWrap">
+                <div class="foodTop">
+                  <div class="foodHeader">
+                    <a href="" class="title c999 db ft12 mt10 pl5">{{classa.name}}
+                      <img src="./more.jpg" class="fr more">
+                    </a>
+                    <ul class="detail">
+                      <li class="detailLi" v-for="(good, index) in classa.goods" :key="index">
+                        <a href="">
+                          <div class="rela loadimg-nofixed">
+                            <img class="w100 image" :src="good.photo">
+                          </div>
+                          <p class="ftc ft12 mt10 c333">{{good.name}}</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="foodBrand"><!--品牌-->
-              <div class="title c999 db ft12 mt10 pl5">热门品牌</div>
-              <ul class="brandList">
-                <li class="brandLi">
-                  <a href="">
-                    <div class="img rela overflow imgItem">
-                      <img class="lheight image" src="./brand.jpg">
-                    </div>
-                    <p class="ftc ft12 mt10">天衡宝（原雪山）</p>
-                  </a>
-                </li>
-                <li class="brandLi">
-                  <a href="">
-                    <div class="img rela overflow imgItem">
-                      <img class="lheight image" src="./brand.jpg">
-                    </div>
-                    <p class="ftc ft12 mt10">天衡宝（原雪山）</p>
-                  </a>
-                </li>
-                <li class="brandLi">
-                  <a href="">
-                    <div class="img rela overflow imgItem">
-                      <img class="lheight image" src="./brand.jpg">
-                    </div>
-                    <p class="ftc ft12 mt10">天衡宝（原雪山）</p>
-                  </a>
-                </li>
-                <li class="brandLi">
-                  <a href="">
-                    <div class="img rela overflow imgItem">
-                      <img class="lheight image" src="./brand.jpg">
-                    </div>
-                    <p class="ftc ft12 mt10">天衡宝（原雪山）</p>
-                  </a>
-                </li>
-                <li class="brandLi">
-                  <a href="">
-                    <div class="img rela overflow imgItem">
-                      <img class="lheight image" src="./brand.jpg">
-                    </div>
-                    <p class="ftc ft12 mt10">天衡宝（原雪山）</p>
-                  </a>
-                </li>
-                <li class="brandLi">
-                  <a href="">
-                    <div class="img rela overflow imgItem">
-                      <img class="lheight image" src="./brand.jpg">
-                    </div>
-                    <p class="ftc ft12 mt10">天衡宝（原雪山）</p>
-                  </a>
-                </li>
-              </ul>
+              <div class="foodBrand"><!--品牌-->
+                <div class="title c999 db ft12 mt10 pl5">热门品牌</div>
+                <ul class="brandList" >
+                  <li class="brandLi" v-for="(hotBrand, index) in classa.hotBrands" :key="index">
+                    <a href="">
+                      <div class="img rela overflow imgItem">
+                        <img class="lheight image" :src="hotBrand.logo">
+                      </div>
+                      <p class="ftc ft12 mt10">{{hotBrand.name}}</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -143,13 +65,15 @@
 
 <script>
   import BScroll from 'better-scroll'
+  import {mapState} from 'vuex'
   export default{
     data(){
 
       return{
+        type_key: 'cat',
         isShow:true,
         contentLi:0,
-        classes: [
+        /*classes: [
           {name:'主粮',type:0,good:'maoliang'},
           {name:'主粮',type:1,good:'goulaing'},
           {name:'主粮',type:2,good:'12345'},
@@ -163,30 +87,51 @@
           {name:'主粮',type:10,good:'23456777'},
           {name:'主粮',type:10,good:'23456777'}
 
-        ]
+        ]*/
       }
     },
     mounted () {
-      this.$nextTick(() => {
-         this.scroll = new BScroll(this.$refs.itemWrap, {
-           click:true
-         })
-      })
-      this.$nextTick(() =>{
-        console.log(2111);
-        const brandScroll = new BScroll(this.$refs.brand, {
-          click:true
-        })
-      })
+      this.type_key = localStorage.getItem('type_key')||'cat'
+
+      this.$store.dispatch('getClassify', this.type_key)
+      this._initScroll()
+
+
+        console.log(this.classify);
+
     },
     methods: {
+      _initScroll() {
+        //console.log(4444444);
+        this.$nextTick(() => {
+          this.scroll = new BScroll(this.$refs.itemWrap, {
+            click:true
+          })
+        })
+        this.$nextTick(() =>{
+          const brandScroll = new BScroll(this.$refs.brand, {
+            click:true
+          })
+        })
+      },
       handleShow (isShow) {
         this.isShow = isShow
       },
       searchLi (contentLi) {
         this.contentLi = contentLi
+      },
+    },
+    watch: {
+      classify (newVal, oldVal) {
+        this._initScroll()
+
+      },
+      contentLi (newVal, oldVal) { //监视左侧列表li的点击变换，当变换时，右侧对应内容也要变化，此时应重新的创建scroll对象
+        this._initScroll()
+        //console.log(555555);
       }
     },
+    computed: mapState(['petName', 'classify'])
   }
 </script>
 
@@ -254,13 +199,24 @@
         bottom 0
         right 0
         left 70px
-      .contentLi
+      .contentLiWrap
         position absolute
         left 0px
         top 0
         right 0
-        border-top 2px #eee solid
-        border-left 4px #eee solid
+        display inline-block
+        height auto
+        //min-height 578px
+        width 100%
+        .contentLi
+          //position absolute
+          display inline-block
+          /*left 0px
+          top 0
+          right 0*/
+          border-top 2px #eee solid
+          border-left 4px #eee solid
+
 
   /*内容区*/
   .topWrap

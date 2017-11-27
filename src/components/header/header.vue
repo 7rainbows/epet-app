@@ -34,16 +34,17 @@
         <div class="find_nav_left dscroll">
           <div class="find_nav_list dscroll-div" ref="navList">
             <ul class="dscroll-ul">
-              <li class="dscroll-li on">
-                <a href="https://wap.epet.com/main.html?menu_param=0&amppet_type=dog&ampfw=0"><!---->
+              <li class="dscroll-li" :class="{on: false}" v-for="(nav, index) in petName.headerNav" :key="index">
+                <router-view></router-view>
+                <router-link to="###">
                   <span class="rela">
-                    <span>首页</span>
+                    <span>{{nav.title}}</span>
                     <i></i>
                   </span>
-                </a>
+                </router-link>
               </li>
-              <li class="dscroll-li">
-                <a href="https://wap.epet.com/clothmall/main.html?pet_type=dog&ampfw=0"><!---->
+  <!--            <li class="dscroll-li">
+                <a href="https://wap.epet.com/clothmall/main.html?pet_type=dog&ampfw=0">&lt;!&ndash;&ndash;&gt;
                   <span class="rela">
                     <span>服饰城</span>
                     <i></i>
@@ -51,7 +52,7 @@
                 </a>
               </li>
               <li class="dscroll-li">
-                <a href="https://wap.epet.com/main.html?menu_param=123&amppet_type=dog&ampis_single=1&ampfw=0"><!---->
+                <a href="https://wap.epet.com/main.html?menu_param=123&amppet_type=dog&ampis_single=1&ampfw=0">&lt;!&ndash;&ndash;&gt;
                   <span class="rela">
                     <span>狗狗主粮</span>
                     <i></i>
@@ -59,7 +60,7 @@
                 </a>
               </li>
               <li class="dscroll-li">
-                <a href="https://wap.epet.com/main.html?menu_param=125&amppet_type=dog&ampis_single=1&ampfw=0"><!---->
+                <a href="https://wap.epet.com/main.html?menu_param=125&amppet_type=dog&ampis_single=1&ampfw=0">&lt;!&ndash;&ndash;&gt;
                   <span class="rela">
                     <span>医疗保健</span>
                     <i></i>
@@ -67,7 +68,7 @@
                 </a>
               </li>
               <li class="dscroll-li">
-                <a href="https://wap.epet.com/main.html?menu_param=131&amppet_type=dog&ampis_single=1&ampfw=0"><!---->
+                <a href="https://wap.epet.com/main.html?menu_param=131&amppet_type=dog&ampis_single=1&ampfw=0">&lt;!&ndash;&ndash;&gt;
                   <span class="rela">
                     <span>零食玩具</span>
                     <i></i>
@@ -75,7 +76,7 @@
                 </a>
               </li>
               <li class="dscroll-li">
-                <a href="https://wap.epet.com/main.html?menu_param=134&amppet_type=dog&ampis_single=1&ampfw=0"><!---->
+                <a href="https://wap.epet.com/main.html?menu_param=134&amppet_type=dog&ampis_single=1&ampfw=0">&lt;!&ndash;&ndash;&gt;
                   <span class="rela">
                     <span>日用外出</span>
                     <i></i>
@@ -83,13 +84,13 @@
                 </a>
               </li>
               <li class="dscroll-li">
-                <a href="https://wap.epet.com/main.html?menu_param=140&amppet_type=dog&ampis_single=1&ampfw=0"><!---->
+                <a href="https://wap.epet.com/main.html?menu_param=140&amppet_type=dog&ampis_single=1&ampfw=0">&lt;!&ndash;&ndash;&gt;
                   <span class="rela">
                     <span>美容香波</span>
                     <i></i>
                   </span>
                 </a>
-              </li>
+              </li>-->
             </ul>
           </div>
         </div>
@@ -121,13 +122,12 @@
         this.city_key = JSON.parse(localStorage.getItem('city_key') ||'{}')
         this.$store.state.city = this.city_key  //更改vuex中city的数据
         //一进入首页就会读取btn_key的值，从而判断是三个站中的哪一个
-        //console.log(city.province);
         this.btn = JSON.parse(localStorage.getItem('btn_key'))
         //console.log(this.btn);//null, 当localStorage中没保存值时
 
     },
     computed: {
-      ...mapState(['city', 'cat', 'dog', 'water']),
+      ...mapState(['city', 'petName']),
     }
   }
 
@@ -187,5 +187,8 @@
     color: #459d36;
     display: inline-block;
   }
+
+  /*.router-link-active
+    background lightgreen*/
 
 </style>

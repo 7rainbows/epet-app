@@ -6,6 +6,7 @@ import store from './store'
 import {Button, Swipe, SwipeItem} from 'mint-ui'
 import VDistpicker from 'v-distpicker'
 
+
 import './mock/mockServer'
 
 Vue.component(Button.name,Button)

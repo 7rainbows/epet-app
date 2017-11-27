@@ -2,7 +2,8 @@
  * Created by 七彩城 on 2017/11/23.
  */
 import Mock from 'mockjs'
-import data from './data.json'
+//import data from './data.json'
+import data from './dataMock.json'
 
 Mock.mock('/api/cat', {
   code: 0,
@@ -17,4 +18,9 @@ Mock.mock('/api/dog', {
 Mock.mock('/api/water', {
   code: 0,
   data: data.water
+})
+
+Mock.mock('/api/classify', {
+  code: 0,
+  data: data.classify
 })

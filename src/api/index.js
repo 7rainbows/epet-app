@@ -15,3 +15,8 @@ export function reqDog() {
 export function reqWater() {
   return axios.get('/api/water')
 }
+
+export function reqClassify() {
+  return axios.get('/api/classify')
+}
+

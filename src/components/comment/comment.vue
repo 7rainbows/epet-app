@@ -9,28 +9,24 @@
       </div>
     </div>
     <div class="commentDetail">
-      <ul class="commentList">
-        <li class="commentItem">
+      <ul class="commentList" v-if="petName">
+        <li class="commentItem" v-for="(comment, index) in petName.comments">
             <a href="javascript:;">
              <div  class="imgClip">
                <div class="commentImg">
-                 <img src="./pic_{01} (1).jpg">
-                 <div class="joinTime">加入E宠2年2月</div>
+                 <img :src="comment.image">
+                 <div class="joinTime">{{comment.join_time}}</div>
                </div>
              </div>
               <div class="mt5 clearfix ft12 pr5 pl5">
-                <span class="fl">盒**喵</span> <span class="fr petName">中华田园猫</span>
+                <span class="fl">{{comment.username}}</span> <span class="fr petName">{{comment.pet_des}}</span>
               </div>
               <div class="mt5 ft13 pr5 pl5 c999 font-intro commentText">
-                不知不觉，陪伴E宠三年多了。我家盒小喵也三岁多了。
-                在这里购物，我觉得放心，安心，省心。
-                质量有保障，售货服务也很贴心，及时。
-                这不仅仅是个购物平台，更是爱猫人的天地。
-                祝福E宠可以越走越好，有更多丰富的商品
+                {{comment.comment_content}}
               </div>
             </a>
         </li>
-        <li class="commentItem">
+      <!--  <li class="commentItem">
             <a href="javascript:;">
              <div  class="imgClip">
                <div class="commentImg">
@@ -89,14 +85,17 @@
               祝福E宠可以越走越好，有更多丰富的商品
             </div>
           </a>
-        </li>
+        </li>-->
       </ul>
     </div>
   </div>
 </template>
 
 <script>
-  export default{}
+  import {mapState} from 'vuex'
+  export default{
+    computed:mapState(['petName'])
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">

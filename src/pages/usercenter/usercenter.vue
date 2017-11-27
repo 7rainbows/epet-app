@@ -43,7 +43,7 @@
       <ul class="registerContent">
         <li class="registerLi">
           <span class="icon-mobile"></span>
-          <input type="text" placeholder="已注册的手机号">
+          <input type="text" placeholder="已注册的手机号" v-model="phone">
         </li>
         <li class="registerLi">
           <span class="icon-lock"></span>
@@ -55,8 +55,8 @@
         </li>
         <li class="registerLi">
           <span class="icon-lock"></span>
-          <input type="text" placeholder="动态密码">
-          <a href="javascript:void(0);" onclick="EpetWeixin.login.getDynamicCode(this)"
+          <input type="text" placeholder="动态密码" v-model="code">
+          <a href="javascript:void(0);" @click="sendCode"
              class="get_phonepass afff ft12 "
              id="scodebtn">获取动态密码</a>
         </li>
@@ -65,7 +65,7 @@
         <router-link to="/find_password">忘记密码?</router-link>
         <router-view></router-view>
       </div>
-      <a href="javascript:;" class="loginPet">登录</a>
+      <a href="javascript:;" class="loginPet" @click="login">登录</a>
     </div>
     <div style="margin-top: 5em ;height: 10em"></div>
     <div class="otherLogin">
@@ -88,15 +88,49 @@
 
 <script>
 //  import { MessageBox } from 'mint-ui';
+  import axios from 'axios'
+  import { MessageBox } from 'mint-ui'
   export default{
     data() {
       return {
-        isShow: true
+        isShow: true,
+        phone: '',
+        code: '',
+        //status: '未登陆'
       }
     },
     methods: {
       loginOrRegister(isShow) {
         this.isShow = isShow
+      },
+
+      sendCode() {
+        const url = `/sendcode?phone=${this.phone}`
+        axios.get(url).then(response => {
+          console.log('sendcode result ', response.data)
+          alert('发送成功，注意接收')
+        })
+      },
+
+      login() {
+        axios.post('/login', {phone: this.phone, code: this.code}).then(response => {
+          console.log('login result ', response.data)
+          const result = response.data
+          if (result.code == 0) {
+            const user = result.data
+            this.status = `登陆成功: ${user.phone}`
+            this.code = null
+            //alert('登录成功')
+            MessageBox.alert('操作成功').then(action => {
+              this.$router.push('/')
+            });
+          } else {
+            this.status = `登陆失败, 请输入正确的手机号和验证码`
+            MessageBox.alert('登录失败  ').then(action => {
+
+            });
+          }
+        })
       }
     }
   }

@@ -1,11 +1,16 @@
 <template>
-  <div class="productContent">
-    <a href="javascript:;"><img src="./pic_007.jpg"></a>
+  <div class="productContent" v-if="petName.experience">
+    <a href="javascript:;"><img :src="petName.experience.image"></a>
   </div>
 </template>
 
 <script>
-  export default{}
+  import {mapState} from 'vuex'
+  export default{
+    computed: {
+      ...mapState(['petName'])
+    }
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">

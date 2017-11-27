@@ -1,0 +1,3155 @@
+{
+  "dog": {
+    "name": "狗狗站",
+    "headerNav": [
+      {
+        "title": "首页",
+        "url": "http://localhost:8080/#/first_page"
+      },
+      {
+        "title": "服饰城",
+        "url": "https://wap.epet.com/clothmall/main.html?pet_type=dog&ampfw=0"
+      },
+      {
+        "title": "狗狗主粮",
+        "url": "https://wap.epet.com/main.html?menu_param=123&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "医疗保健",
+        "url": "https://wap.epet.com/main.html?menu_param=125&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "零食玩具",
+        "url": "https://wap.epet.com/main.html?menu_param=131&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "日用外出",
+        "url": "https://wap.epet.com/main.html?menu_param=134&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "美容香波",
+        "url": "https://wap.epet.com/main.html?menu_param=140&amppet_type=dog&ampis_single=1&ampfw=0"
+      }
+    ],
+    "banners": [
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/09/d0bc3832381f1dc71e45c234947d55c4.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/10/71be2dbb19bcf582f5882f05dca70d08.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/10/16be904ee4537f987c477082ce1f39f6.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/17/18/4332cdbea5182d0741d2e5f20459a573.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-10/13/18/39d632841de97c93721505c51ff9a9a0.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/13/cb1a81f0f8c7e8f677c5849eb66a70ca.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/17/15/4e1f964be2a9e6043b705cf9092b8e44.jpg@!water"
+      }
+    ],
+    "entryNavs": [
+      {
+        "name": "E宠团",
+        "image": "https://img1.epetbar.com/2017-11/17/16/ff5e15075de3bd754731d6688eb1dad6.png@!water"
+      },
+      {
+        "name": "品牌特卖",
+        "image": "https://img1.epetbar.com/2017-11/17/16/a15c75a1e79d7b674d33214ac4de4b60.png@!water"
+      },
+      {
+        "name": "E宠国际",
+        "image": "https://img1.epetbar.com/2017-11/17/16/689840d11300ceab89d7cbe1f766b13f.png@!water"
+      },
+      {
+        "name": "体验馆",
+        "image": "https://img1.epetbar.com/2017-11/17/16/972a3b71a7f97a253d874b99a8995429.png@!water"
+      },
+      {
+        "name": "清仓特价",
+        "image": "https://img1.epetbar.com/2017-11/17/16/66e02581d32be7e0ca5993c5380357de.png@!water"
+      },
+      {
+        "name": "潮品视频",
+        "image": "https://img1.epetbar.com/2017-11/17/16/154ae16ff8fb37e9f0f40eeb7589c4c7.png@!water"
+      },
+      {
+        "name": "新汪课堂",
+        "image": "https://img1.epetbar.com/2017-11/20/07/8f695e84188c7751c0322e1df19fd9f0.jpg@!water"
+      },
+      {
+        "name": "新品周刊",
+        "image": "https://img1.epetbar.com/2017-11/17/16/88b9ed72b6d471207977daa13d2ed542.jpg@!water"
+      }
+    ],
+    "daySales": [
+      {
+        "image": "https://img1.epetbar.com/2016-12/20/12/3847ba53ec4670b853820ef794a108a9.jpg",
+        "sale_price": "1.70",
+        "little_price": "15.30"
+      },
+      {
+        "image": "https://img1.epetbar.com/2015-05/13/aa58f00b6a152a5c363a07ad72c636c1.jpg",
+        "sale_price": "3.50",
+        "little_price": "31.50"
+      },
+      {
+        "image": "https://img1.epetbar.com/2017-09/27/11/74db95503bfa7c8ffd755fbf09846036.jpg",
+        "sale_price": "1.28",
+        "little_price": "11.52"
+      },
+      {
+        "image": "https://img1.epetbar.com/2017-10/17/17/96198f190982a116b6064a3e84b431f2.jpg",
+        "sale_price": "1.80",
+        "little_price": "16.20"
+      },
+      {
+        "image": "https://img1.epetbar.com/2016-11/28/18/3826a28adde9226bad867afcc72fbe52.jpg",
+        "sale_price": "5.90",
+        "little_price": "53.10"
+      },
+      {
+        "image": "https://img1.epetbar.com/2015-08/04/8603b933f9df6395e7624e04357a93be.jpg",
+        "sale_price": "2.00",
+        "little_price": "18.00"
+      },
+      {
+        "image": "https://img1.epetbar.com/2015-11/24/16/3271796605bfaab8eb575f9d1479a7e1.jpg",
+        "sale_price": "1.10",
+        "little_price": "9.90"
+      },
+      {
+        "image": "https://img1.epetbar.com/2017-07/07/10/ed88fa3832d9a848c3bdd89a58618b7d.jpg",
+        "sale_price": "3.50",
+        "little_price": "省￥31.50"
+      }
+    ],
+    "video": {
+      "title": "夜空中最亮的星",
+      "time": "02:20",
+      "link": "http://player.epetbar.com/4197027910224480aac449147d741949/a2a42164b09e475f89329caa021ebc44-5287d2089db37e62345123a1be272f8b.mp4",
+      "visit": 7397,
+      "avatar": "https://img1.epetbar.com/2017-07/10/18/5f273af318fd5a640bfbcb5016019df4.jpg@!500w0h"
+    },
+    "hotPlates":{
+      "leftSide":{
+        "name":"新汪课堂",
+        "image":"https://img2.epetbar.com/nowater/2017-09/21/09/03f51eb78add57a87f2619517758cbf4.jpg@!water"
+      },
+      "right_up":{
+        "name":"新品周刊",
+        "image":"https://img2.epetbar.com/nowater/2017-10/10/10/083fd1fdc5122c2c1e16a20ea0aa488d.png@!water"
+      },
+      "right_down":{
+        "name":"给他一个身份牌",
+        "image":"https://img2.epetbar.com/nowater/2017-10/10/17/8244eec40f2901c7d1da50f19c459029.jpg@!water"
+      }
+    },
+    "experience":{
+      "name":"体验馆",
+      "image":"https://img2.epetbar.com/nowater/2017-10/10/11/2b9cc3f3863becfc31a332c3eadba80c.jpg@!water"
+    },
+    "brandSales":[
+      {
+        "title": "谷登新品",
+        "sub_title": "5折限量",
+        "image": "https://img2.epetbar.com/nowater/2017-11/17/18/c1d2ddcc28b959fde8a6c4b413bfa858.jpg@!water"
+      },
+      {
+        "title": "NexGard尼可信",
+        "sub_title": "",
+        "image": "https://img2.epetbar.com/nowater/2017-11/20/10/7c30b558f0e5026cc47605ea877dd1de.jpg@!water"
+      },
+      {
+        "title": "冠能",
+        "sub_title": "满399送智能碗",
+        "image": "https://img2.epetbar.com/nowater/2017-10/19/09/407f8316833a3bd928ac31f5e4d14dc3.jpg@!water"
+      },
+      {
+        "index": "2492",
+        "is_show": 1,
+        "type": "7",
+        "is_dynamic": "0",
+        "type_name": "单广告模板",
+        "title": "临期不改好货本质",
+        "sub_title": "进口好货，低至1折！",
+        "image": "https://img2.epetbar.com/nowater/2017-10/12/14/66de171f32497dbc764417cb09c63247.jpg@!water"
+      }
+    ],
+    "comments":[
+      {
+        "username": "盒**喵",
+        "join_time": "加入E宠2年2月",
+        "pet_des": "中华田园猫",
+        "image": "https://img1.epetbar.com/2017-11/18/18/86ffc605cb5b19593b0b48eece20c4bc.jpg",
+        "comment_content": "不知不觉，陪伴E宠三年多了。我家盒小喵也三岁多了。\n在这里购物，我觉得放心，安心，省心。\n质量有保障，售货服务也很贴心，及时。\n这不仅仅是个购物平台，更是爱猫人的天地。\n祝福E宠可以越走越好，有更多丰富的商品"
+      },
+      {
+        "username": "菲***儿",
+        "join_time": "加入E宠6月",
+        "pet_des": "金毛",
+        "image": "https://img1.epetbar.com/2017-11/22/19/491f8f0f8845904fa59c7e11583d4052.jpg@!200w-c",
+        "comment_content": "一直在e宠买东西，因为这里的东西都很好都是正品，而且优惠挺多的。其实只要坚持做正品，顾客就会一直留下来，因为没有人喜欢天天去比较哪家店卖的东西更靠谱。所以，我之所以一直选择e宠，还是因为质量，而且我也相信你们给的优惠是相当大的。狗狗一直在吃这里的东西，很健康，没有出现过任何问题，这就是你们给我的服务保证。谢谢！"
+      },
+      {
+        "username": "京****乐",
+        "join_time": "加入E宠5年1月",
+        "pet_des": "喜乐蒂",
+        "image": "https://img1.epetbar.com/2017-11/16/19/6e274aeb23338d1c569046e775cef8f9.jpg",
+        "comment_content": "没错，我是E宠的忠实客户，我家两个宝贝也是吃着E宠的粮食长大的。认识E宠还是一个偶然的机会，我家宝贝小的时候肠胃不好，为了能找到适合他们的狗粮，经常在淘宝上到处寻找，可买回来的粮食狗狗一吃就拉稀，愁的我不知如何是好，一次全家聚会说起这事，外甥给我说，他工作的城市有个叫E宠商城的专门卖宠物用品，里面的东西没有假货，里面的工作人员也都是爱狗人士，我一听当时就在网上搜到了并开始为狗狗挑选粮食，没想到我家宝贝吃后竟然不在拉稀了，让我太激动了，随后我还购买过洗毛的护毛的和消毒用品，用后感觉都非常好，我把E宠还推荐给了朋友，他们也感觉不错，现在也都在用。我希望E宠今后能经常做些力度大的活动，让我们这些老用户能得到更多的实惠，也让更多的人知道E宠拥有E宠。"
+      },
+      {
+        "username": "s*****d",
+        "join_time": "加入E宠1年10月",
+        "pet_des": "狸花猫",
+        "image": "https://img1.epetbar.com/2017-11/17/23/2633abab95daccd7f25e7ee744760072.jpg",
+        "comment_content": "一直很信任E宠，身边养猫的朋友第一推荐也都是E宠。除了品质毋庸置疑，E宠的快递也是棒棒的，当天下单，两天就可以收到了。双十一的时候，快递小哥大晚上还在送货，超感动。另外，E宠推出的E宠团也特别受小伙伴们的欢迎，大家齐心协力秒团的时候都认真得不得了，感觉是E宠让大家团结在一起了呢。总之，会继续支持E宠的，希望你们越做越好！"
+      }
+    ]
+  },
+
+  "cat": {
+    "name": "猫猫站",
+    "headerNav": [
+      {
+        "title": "首页",
+        "url": "http://localhost:8080/#/first_page"
+      },
+      {
+        "title": "猫猫主粮",
+        "url": "https://wap.epet.com/clothmall/main.html?pet_type=dog&ampfw=0"
+      },
+      {
+        "title": "猫砂",
+        "url": "https://wap.epet.com/main.html?menu_param=123&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "医疗保健",
+        "url": "https://wap.epet.com/main.html?menu_param=125&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "零食玩具",
+        "url": "https://wap.epet.com/main.html?menu_param=131&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "日用外出",
+        "url": "https://wap.epet.com/main.html?menu_param=134&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "美容香波",
+        "url": "https://wap.epet.com/main.html?menu_param=140&amppet_type=dog&ampis_single=1&ampfw=0"
+      }
+    ],
+    "banners": [
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/22/14/4ca37301c443c940dea2a3964398d0c3.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/10/71be2dbb19bcf582f5882f05dca70d08.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/10/16be904ee4537f987c477082ce1f39f6.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/17/18/4332cdbea5182d0741d2e5f20459a573.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-10/13/18/39d632841de97c93721505c51ff9a9a0.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/13/cb1a81f0f8c7e8f677c5849eb66a70ca.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/17/15/4e1f964be2a9e6043b705cf9092b8e44.jpg@!water"
+      }
+    ],
+    "entryNavs": [
+      {
+        "name": "E宠团",
+        "image": "https://img1.epetbar.com/2017-11/17/16/ff5e15075de3bd754731d6688eb1dad6.png@!water"
+      },
+      {
+        "name": "品牌特卖",
+        "image": "https://img1.epetbar.com/2017-11/17/16/a15c75a1e79d7b674d33214ac4de4b60.png@!water"
+      },
+      {
+        "name": "E宠国际",
+        "image": "https://img1.epetbar.com/2017-11/17/16/689840d11300ceab89d7cbe1f766b13f.png@!water"
+      },
+      {
+        "name": "体验馆",
+        "image": "https://img1.epetbar.com/2017-11/17/16/972a3b71a7f97a253d874b99a8995429.png@!water"
+      },
+      {
+        "name": "清仓特价",
+        "image": "https://img1.epetbar.com/2017-11/17/16/66e02581d32be7e0ca5993c5380357de.png@!water"
+      },
+      {
+        "name": "潮品视频",
+        "image": "https://img1.epetbar.com/2017-11/17/16/154ae16ff8fb37e9f0f40eeb7589c4c7.png@!water"
+      },
+      {
+        "name": "罐头超市",
+        "image": "https://img1.epetbar.com/2017-11/17/16/317723cb2faa934d092884236306ffa5.png@!water"
+      },
+      {
+        "name": "新喵课堂",
+        "image": "https://img1.epetbar.com/2017-11/17/16/26829c8d7edd9fdff2b254bd5a3129bc.png@!water"
+      }
+    ],
+    "daySales": [
+      {
+        "image": "https://img1.epetbar.com/2015-08/29/12/e32ff211b7833504966553ff6d424ca7.jpg",
+        "sale_price": "1.70",
+        "little_price": "15.30"
+      },
+      {
+        "image": "https://img1.epetbar.com/2015-08/29/16/bc30fec0ee37aae73e99b5a8f47c4dc1.jpg",
+        "sale_price": "3.50",
+        "little_price": "31.50"
+      },
+      {
+        "image": "https://img1.epetbar.com/2017-09/28/10/c06f6fec72603fbbc7f247288effe8fa.jpg",
+        "sale_price": "1.28",
+        "little_price": "11.52"
+      },
+      {
+        "image": "https://img1.epetbar.com/2016-10/12/18/fef00f4a10153f5909fe2d820cba4f53.jpg",
+        "sale_price": "1.80",
+        "little_price": "16.20"
+      },
+      {
+        "image": "https://img1.epetbar.com/2016-02/23/10/ad59cd6f73004340a467f10782646610.jpg",
+        "sale_price": "5.90",
+        "little_price": "53.10"
+      },
+      {
+        "image": "https://img1.epetbar.com/2016-06/30/18/eac0cfd69057537baa704a43631a89ec.jpg",
+        "sale_price": "2.00",
+        "little_price": "18.00"
+      },
+      {
+        "image": "https://img1.epetbar.com/2017-05/19/10/1143a2ee5bb45b55fd4236428738959d.jpg",
+        "sale_price": "1.10",
+        "little_price": "9.90"
+      },
+      {
+        "image": "https://img1.epetbar.com/2016-12/23/18/3a8c47eac0036bc8b112ca5b5224d848.jpg",
+        "sale_price": "3.50",
+        "little_price": "省￥31.50"
+      }
+    ],
+    "video": {
+      "title": "外出上厕所就选它",
+      "time": "02:08",
+      "link": "https://wap.epet.com/article/video/View.html?vid=17&fw=0",
+      "visit": 12405,
+      "avatar": "https://img1.epetbar.com/2017-07/10/18/3415a15b1db54de1e619cb4dafcce5d0.jpg@!500w0h"
+    },
+    "hotPlates":{
+      "leftSide":{
+        "name":"新喵课堂",
+        "image":"https://img2.epetbar.com/nowater/2017-09/21/10/ae3a4e59053ae36f5e4d323d18e076b4.jpg@!water"
+      },
+      "right_up":{
+        "name":"新品周刊",
+        "image":"https://img2.epetbar.com/nowater/2017-10/10/10/083fd1fdc5122c2c1e16a20ea0aa488d.png@!water"
+      },
+      "right_down":{
+        "name":"给他一个身份牌",
+        "image":"https://img2.epetbar.com/nowater/2017-10/10/17/8244eec40f2901c7d1da50f19c459029.jpg@!water"
+      }
+    },
+    "experience":{
+      "name":"体验馆",
+      "image":"https://img2.epetbar.com/nowater/2017-10/10/13/fa9798d9c990371c240c612c9ec56cf8.jpg@!water"
+    },
+    "brandSales":[
+      {
+        "title": "谷登新品",
+        "sub_title": "5折限量",
+        "image": "https://img2.epetbar.com/nowater/2017-11/17/18/c1d2ddcc28b959fde8a6c4b413bfa858.jpg@!water"
+      },
+      {
+        "title": "NexGard尼可信",
+        "sub_title": "",
+        "image": "https://img2.epetbar.com/nowater/2017-11/20/10/7c30b558f0e5026cc47605ea877dd1de.jpg@!water"
+      },
+      {
+        "title": "冠能",
+        "sub_title": "满399送智能碗",
+        "image": "https://img2.epetbar.com/nowater/2017-10/19/09/407f8316833a3bd928ac31f5e4d14dc3.jpg@!water"
+      },
+      {
+        "index": "2492",
+        "is_show": 1,
+        "type": "7",
+        "is_dynamic": "0",
+        "type_name": "单广告模板",
+        "title": "临期不改好货本质",
+        "sub_title": "进口好货，低至1折！",
+        "image": "https://img2.epetbar.com/nowater/2017-10/12/14/66de171f32497dbc764417cb09c63247.jpg@!water"
+      }
+    ],
+    "comments":[
+      {
+        "username": "盒**喵",
+        "join_time": "加入E宠2年2月",
+        "pet_des": "中华田园猫",
+        "image": "https://img1.epetbar.com/2017-11/18/18/86ffc605cb5b19593b0b48eece20c4bc.jpg",
+        "comment_content": "不知不觉，陪伴E宠三年多了。我家盒小喵也三岁多了。\n在这里购物，我觉得放心，安心，省心。\n质量有保障，售货服务也很贴心，及时。\n这不仅仅是个购物平台，更是爱猫人的天地。\n祝福E宠可以越走越好，有更多丰富的商品"
+      },
+      {
+        "username": "鲍***美",
+        "join_time": "加入E宠6月",
+        "pet_des": "博美",
+        "image": "https://img1.epetbar.com/2017-09/18/15/71f6e192d9138b2dbeadf65a040d4a1c.jpg",
+        "comment_content": "一直在e宠买东西，因为这里的东西都很好都是正品，而且优惠挺多的。其实只要坚持做正品，顾客就会一直留下来，因为没有人喜欢天天去比较哪家店卖的东西更靠谱。所以，我之所以一直选择e宠，还是因为质量，而且我也相信你们给的优惠是相当大的。狗狗一直在吃这里的东西，很健康，没有出现过任何问题，这就是你们给我的服务保证。谢谢！"
+      },
+      {
+        "username": "京****乐",
+        "join_time": "加入E宠5年1月",
+        "pet_des": "加菲猫",
+        "image": "https://img1.epetbar.com/2017-09/10/21/f381ad9c401b387b11bb42451e693993.jpg@!200w-c",
+        "comment_content": "没错，我是E宠的忠实客户，我家两个宝贝也是吃着E宠的粮食长大的。认识E宠还是一个偶然的机会，我家宝贝小的时候肠胃不好，为了能找到适合他们的猫粮，经常在淘宝上到处寻找，可买回来的粮食猫猫一吃就拉稀，愁的我不知如何是好，一次全家聚会说起这事，外甥给我说，他工作的城市有个叫E宠商城的专门卖宠物用品，里面的东西没有假货，里面的工作人员也都是爱猫人士，我一听当时就在网上搜到了并开始为猫猫挑选粮食，没想到我家宝贝吃后竟然不在拉稀了，让我太激动了，随后我还购买过洗毛的护毛的和消毒用品，用后感觉都非常好，我把E宠还推荐给了朋友，他们也感觉不错，现在也都在用。我希望E宠今后能经常做些力度大的活动，让我们这些老用户能得到更多的实惠，也让更多的人知道E宠拥有E宠。"
+      },
+      {
+        "username": "s*****d",
+        "join_time": "加入E宠1年10月",
+        "pet_des": "狸花猫",
+        "image": "https://img1.epetbar.com/2017-11/17/23/2633abab95daccd7f25e7ee744760072.jpg",
+        "comment_content": "一直很信任E宠，身边养猫的朋友第一推荐也都是E宠。除了品质毋庸置疑，E宠的快递也是棒棒的，当天下单，两天就可以收到了。双十一的时候，快递小哥大晚上还在送货，超感动。另外，E宠推出的E宠团也特别受小伙伴们的欢迎，大家齐心协力秒团的时候都认真得不得了，感觉是E宠让大家团结在一起了呢。总之，会继续支持E宠的，希望你们越做越好！"
+      }
+    ]
+  },
+
+  "water": {
+    "name": "水族馆",
+    "headerNav": [
+      {
+        "title": "水族首页",
+        "url": "http://localhost:8080/#/first_page"
+      },
+      {
+        "title": "鱼缸导购",
+        "url": "https://wap.epet.com/clothmall/main.html?pet_type=dog&ampfw=0"
+      },
+      {
+        "title": "新鱼课堂",
+        "url": "https://wap.epet.com/main.html?menu_param=123&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "水族馆",
+        "url": "https://wap.epet.com/main.html?menu_param=125&amppet_type=dog&ampis_single=1&ampfw=0"
+      },
+      {
+        "title": "体验馆",
+        "url": "https://wap.epet.com/main.html?menu_param=131&amppet_type=dog&ampis_single=1&ampfw=0"
+      }
+    ],
+    "banners": [
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-10/09/13/b9173da057b3bf8371f35c0f92d5c30f.png@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/10/71be2dbb19bcf582f5882f05dca70d08.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/10/16be904ee4537f987c477082ce1f39f6.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/17/18/4332cdbea5182d0741d2e5f20459a573.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-10/13/18/39d632841de97c93721505c51ff9a9a0.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/20/13/cb1a81f0f8c7e8f677c5849eb66a70ca.jpg@!water"
+      },
+      {
+        "name": "",
+        "url": "https://img2.epetbar.com/nowater/2017-11/17/15/4e1f964be2a9e6043b705cf9092b8e44.jpg@!water"
+      }
+    ],
+    "entryNavs": [
+      {
+        "name": "E宠团",
+        "image": "https://img1.epetbar.com/2017-11/17/16/ff5e15075de3bd754731d6688eb1dad6.png@!water"
+      },
+      {
+        "name": "品牌特卖",
+        "image": "https://img1.epetbar.com/2017-11/17/16/a15c75a1e79d7b674d33214ac4de4b60.png@!water"
+      },
+      {
+        "name": "E宠国际",
+        "image": "https://img1.epetbar.com/2017-11/17/16/689840d11300ceab89d7cbe1f766b13f.png@!water"
+      },
+      {
+        "name": "体验馆",
+        "image": "https://img1.epetbar.com/2017-11/17/16/972a3b71a7f97a253d874b99a8995429.png@!water"
+      },
+      {
+        "name": "清仓特价",
+        "image": "https://img1.epetbar.com/2017-11/17/16/66e02581d32be7e0ca5993c5380357de.png@!water"
+      },
+      {
+        "name": "潮品视频",
+        "image": "https://img1.epetbar.com/2017-11/17/16/154ae16ff8fb37e9f0f40eeb7589c4c7.png@!water"
+      },
+      {
+        "name": "新鱼课堂",
+        "image": "https://img1.epetbar.com/2017-11/20/07/8f695e84188c7751c0322e1df19fd9f0.jpg@!water"
+      },
+      {
+        "name": "新品周刊",
+        "image": "https://img1.epetbar.com/2017-11/17/16/88b9ed72b6d471207977daa13d2ed542.jpg@!water"
+      }
+    ],
+    "daySales": [
+      {
+        "image": "https://img1.epetbar.com/2017-03/21/14/470fed4a3df70950fa00cef93f520447.jpg",
+        "sale_price": "178.8",
+        "little_price": "31"
+      },
+      {
+        "image": "https://img1.epetbar.com/2017-07/31/15/92e48aaaa86314d612e68de190699c62.jpg",
+        "sale_price": "39",
+        "little_price": "31.50"
+      },
+      {
+        "image": "https://img1.epetbar.com/2017-06/15/14/c84cb724d99394ef18bbeec165aed6ab.jpg",
+        "sale_price": "9.9",
+        "little_price": "11.52"
+      },
+      {
+        "image": "https://img1.epetbar.com/2017-06/14/14/182cef5e872bb59782919f90318c9a5e.jpg",
+        "sale_price": "1.80",
+        "little_price": "16.20"
+      },
+      {
+        "image": "https://img1.epetbar.com/2016-02/23/10/ad59cd6f73004340a467f10782646610.jpg",
+        "sale_price": "5.90",
+        "little_price": "53.10"
+      }
+    ],
+    "video": {
+      "title": "荷塘月色",
+      "time": "02:20",
+      "link": "https://wap.epet.com/article/video/View.html?vid=17&fw=0",
+      "visit": 3375,
+      "avatar": "https://img2.epetbar.com/nowater/2017-10/16/14/c6f057d554de30186dbae664b40f384d.gif"
+    },
+    "hotPlates":{
+      "leftSide":{
+        "name":"新鱼课堂",
+        "image":"https://img2.epetbar.com/nowater/2017-09/21/10/ae3a4e59053ae36f5e4d323d18e076b4.jpg@!water"
+      },
+      "right_up":{
+        "name":"新品周刊",
+        "image":"https://img2.epetbar.com/nowater/2017-10/10/10/083fd1fdc5122c2c1e16a20ea0aa488d.png@!water"
+      },
+      "right_down":{
+        "name":"给他一个身份牌",
+        "image":"https://img2.epetbar.com/nowater/2017-10/10/17/8244eec40f2901c7d1da50f19c459029.jpg@!water"
+      }
+    },
+    "experience":{
+      "name":"体验馆",
+      "image":"https://img2.epetbar.com/nowater/2017-11/22/15/0662b367a53ef7d81faacdd0e15af2d8.jpg@!water"
+    },
+    "brandSales":[
+      {
+        "title": "谷登新品",
+        "sub_title": "5折限量",
+        "image": "https://img2.epetbar.com/nowater/2017-11/17/18/c1d2ddcc28b959fde8a6c4b413bfa858.jpg@!water"
+      },
+      {
+        "title": "NexGard尼可信",
+        "sub_title": "",
+        "image": "https://img2.epetbar.com/nowater/2017-11/20/10/7c30b558f0e5026cc47605ea877dd1de.jpg@!water"
+      },
+      {
+        "title": "冠能",
+        "sub_title": "满399送智能碗",
+        "image": "https://img2.epetbar.com/nowater/2017-10/19/09/407f8316833a3bd928ac31f5e4d14dc3.jpg@!water"
+      },
+      {
+        "index": "2492",
+        "is_show": 1,
+        "type": "7",
+        "is_dynamic": "0",
+        "type_name": "单广告模板",
+        "title": "临期不改好货本质",
+        "sub_title": "进口好货，低至1折！",
+        "image": "https://img2.epetbar.com/nowater/2017-10/12/14/66de171f32497dbc764417cb09c63247.jpg@!water"
+      }
+    ],
+    "comments":[
+      {
+        "username": "盒**喵",
+        "join_time": "加入E宠2年2月",
+        "pet_des": "中华田园猫",
+        "image": "https://img1.epetbar.com/2017-11/18/18/86ffc605cb5b19593b0b48eece20c4bc.jpg",
+        "comment_content": "不知不觉，陪伴E宠三年多了。我家盒小喵也三岁多了。\n在这里购物，我觉得放心，安心，省心。\n质量有保障，售货服务也很贴心，及时。\n这不仅仅是个购物平台，更是爱猫人的天地。\n祝福E宠可以越走越好，有更多丰富的商品"
+      },
+      {
+        "username": "鲍***美",
+        "join_time": "加入E宠6月",
+        "pet_des": "博美",
+        "image": "https://img1.epetbar.com/2017-09/18/15/71f6e192d9138b2dbeadf65a040d4a1c.jpg",
+        "comment_content": "一直在e宠买东西，因为这里的东西都很好都是正品，而且优惠挺多的。其实只要坚持做正品，顾客就会一直留下来，因为没有人喜欢天天去比较哪家店卖的东西更靠谱。所以，我之所以一直选择e宠，还是因为质量，而且我也相信你们给的优惠是相当大的。狗狗一直在吃这里的东西，很健康，没有出现过任何问题，这就是你们给我的服务保证。谢谢！"
+      },
+      {
+        "username": "京****乐",
+        "join_time": "加入E宠5年1月",
+        "pet_des": "喜乐蒂",
+        "image": "https://img1.epetbar.com/2017-11/16/19/6e274aeb23338d1c569046e775cef8f9.jpg",
+        "comment_content": "没错，我是E宠的忠实客户，我家两个宝贝也是吃着E宠的粮食长大的。认识E宠还是一个偶然的机会，我家宝贝小的时候肠胃不好，为了能找到适合他们的狗粮，经常在淘宝上到处寻找，可买回来的粮食狗狗一吃就拉稀，愁的我不知如何是好，一次全家聚会说起这事，外甥给我说，他工作的城市有个叫E宠商城的专门卖宠物用品，里面的东西没有假货，里面的工作人员也都是爱狗人士，我一听当时就在网上搜到了并开始为狗狗挑选粮食，没想到我家宝贝吃后竟然不在拉稀了，让我太激动了，随后我还购买过洗毛的护毛的和消毒用品，用后感觉都非常好，我把E宠还推荐给了朋友，他们也感觉不错，现在也都在用。我希望E宠今后能经常做些力度大的活动，让我们这些老用户能得到更多的实惠，也让更多的人知道E宠拥有E宠。"
+      },
+      {
+        "username": "s*****d",
+        "join_time": "加入E宠1年10月",
+        "pet_des": "狸花猫",
+        "image": "https://img1.epetbar.com/2017-11/17/23/2633abab95daccd7f25e7ee744760072.jpg",
+        "comment_content": "一直很信任E宠，身边养猫的朋友第一推荐也都是E宠。除了品质毋庸置疑，E宠的快递也是棒棒的，当天下单，两天就可以收到了。双十一的时候，快递小哥大晚上还在送货，超感动。另外，E宠推出的E宠团也特别受小伙伴们的欢迎，大家齐心协力秒团的时候都认真得不得了，感觉是E宠让大家团结在一起了呢。总之，会继续支持E宠的，希望你们越做越好！"
+      }
+    ]
+  },
+
+  "classify": {
+    "dogClass": [
+      {
+        "type": 0,
+        "name":"为您推荐",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": []
+      },
+      {
+        "type": 1,
+        "name":"狗狗主粮",
+        "goodTitle": "",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "name":"狗狗零食",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "name":"狗狗服饰",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "name":"狗狗窝垫",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "name":"狗狗生活",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "name":"狗狗玩具",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "name":"狗狗保健",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 8,
+        "name":"狗狗医疗",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 9,
+        "name":"狗狗牵引",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 10,
+        "name":"狗狗美容",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 11,
+        "name":"狗狗周边",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 12,
+        "name":"狗狗清洁",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      }
+    ],
+    "catClass": [
+      {
+        "type": 0,
+        "name":"为您推荐",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name":"猫猫主粮",
+        "goodTitle": "",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "name":"狗狗零食",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "name":"狗狗服饰",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "name":"狗狗窝垫",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "name":"狗狗生活",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "name":"狗狗玩具",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "name":"狗狗保健",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 8,
+        "name":"狗狗医疗",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 9,
+        "name":"狗狗牵引",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 10,
+        "name":"狗狗美容",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 11,
+        "name":"狗狗周边",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 12,
+        "name":"狗狗清洁",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      }
+    ],
+    "waterClass": [
+      {
+        "type": 0,
+        "name":"为您推荐",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name":"鱼鱼主粮",
+        "goodTitle": "",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "name":"狗狗零食",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "name":"狗狗服饰",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "name":"狗狗窝垫",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "name":"狗狗生活",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "name":"狗狗玩具",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "name":"狗狗保健",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 8,
+        "name":"狗狗医疗",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 9,
+        "name":"狗狗牵引",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 10,
+        "name":"狗狗美容",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 11,
+        "name":"狗狗周边",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      },
+      {
+        "type": 12,
+        "name":"狗狗清洁",
+        "goodTitle": "热门分类",
+        "goods": [
+          {
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/12/10/f38b8a4245c34c33061d04ad1e8009dd.jpg"
+          },
+          {
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          }
+        ],
+        "hotBrands": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝（原雪山"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "ZIWI Peak"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "渴望"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+            "name": "伯纳天纯"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能"
+          }
+        ]
+      }
+    ]
+  }
+}
